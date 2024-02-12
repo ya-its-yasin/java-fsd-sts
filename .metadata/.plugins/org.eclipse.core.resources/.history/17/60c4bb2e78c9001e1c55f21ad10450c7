@@ -1,0 +1,7 @@
+package com.tcs.boot.day11springboot;
+
+@Controller
+@RequestMapping("/formregistration")
+public class FormRegistrationController {
+
+}

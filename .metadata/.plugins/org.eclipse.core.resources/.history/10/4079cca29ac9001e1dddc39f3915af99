@@ -1,0 +1,16 @@
+package com.tcs.jpa;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class Day11BootJpaApplication {
+
+	@Autowired
+	ProductRepository repo;
+	
+	public static void main(String[] args) {
+		SpringApplication.run(Day11BootJpaApplication.class, args);
+	}
+
+}

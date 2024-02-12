@@ -1,0 +1,6 @@
+package com.tcs.jpa;
+
+@Repository
+public interface ProductRepository {
+
+}

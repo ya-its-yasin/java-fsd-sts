@@ -1,0 +1,23 @@
+package com.tcs.mvcjsp;
+
+import java.util.ArrayList;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class LoginController {
+
+	@GetMapping("/go")
+	public String login()
+	{
+		ArrayList<String> products = new ArrayList<>();
+		products.add("Television");
+		products.add("Laptop");
+		products.add("SmartPhone");
+		products.add("SmartWatch");
+		products.add("SmartGoggles");
+		return "success";
+	}
+}

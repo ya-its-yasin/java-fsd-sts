@@ -19,7 +19,7 @@ public class LoginController {
 		products.add("SmartWatch");
 		products.add("SmartGoggles");
 		
-		map.addAttribute("catalog", products);
+		map.addAttribute("products", products);
 		
 		return "success";
 	}

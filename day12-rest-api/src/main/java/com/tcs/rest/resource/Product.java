@@ -41,14 +41,5 @@ public class Product {
 	public void setPrice(double price) {
 		this.price = price;
 	}
-	public Product(int pid, String description, double price) {
-		super();
-		this.pid = pid;
-		this.description = description;
-		this.price = price;
-	}
-	
-	public Product() {
-		// TODO Auto-generated constructor stub
-	}
 }
+

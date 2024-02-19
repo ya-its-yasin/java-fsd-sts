@@ -1,7 +1,0 @@
-
-<html>
-	<body>Hello from home.html
-		
-		<p th:text="@{location}"/>
-	</body>
-</html>

@@ -27,6 +27,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="/home/labuser/sts-workspace/day16-rest-api-aop"/>
 			<item value="/home/labuser/sts-workspace/day12-rest-api/src/main/java/com/tcs/rest/resource"/>
 		</list>
 		<list key="projectNameTemplate">

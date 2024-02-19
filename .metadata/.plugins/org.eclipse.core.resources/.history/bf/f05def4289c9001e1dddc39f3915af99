@@ -1,7 +1,0 @@
-package com.tcs.mvcjsp;
-
-@Controll;er
-public class LoginController {
-
-	
-}

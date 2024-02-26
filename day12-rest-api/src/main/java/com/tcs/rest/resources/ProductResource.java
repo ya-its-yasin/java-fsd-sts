@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.tcs.rest.resource.Product;
 import com.tcs.rest.services.ProductService;
 
-@CrossOrigin(origins = "http://localhost:4200") //port number of angular application
+//@CrossOrigin(origins = "http://localhost:4200") //port number of angular application
 @RestController
 @RequestMapping("/product/v1")
 public class ProductResource {

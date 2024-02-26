@@ -50,9 +50,9 @@ public class ProductService {
 
 	public boolean deleteProduct(int pid) {
 		// TODO Auto-generated method stub
-		if(repo.getById(pid) != null)
+		if(repo.findById(pid) != null)
 		{
-			repo.delete(repo.getById(pid));
+			repo.deleteById(pid);
 			return true;
 		}
 		return false;

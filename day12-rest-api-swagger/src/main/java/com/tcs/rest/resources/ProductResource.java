@@ -22,7 +22,6 @@ import io.swagger.annotations.ApiOperation;
 
 @RestController
 @RequestMapping("/product/v2")
-@Api(value="Product Service API 2.0", description="Rest endpoints for Product API")
 public class ProductResource {
 
 	@Autowired
@@ -34,7 +33,6 @@ public class ProductResource {
 	}
 
 	@GetMapping("/allproducts")
-	@ApiOperation(value="Returns the product list")
 	public List<Product> showAllProducts() {
 		return service.getProducts();
 	}
